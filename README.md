@@ -1,17 +1,32 @@
-# FinSuite Pro — نرم‌افزار دسکتاپ اکسل‌ساز حسابداری (PyQt6)
+# 📊 FinSuitePro – Financial Management Suite  
 
-## اجرا
-1) نصب وابستگی‌ها:
-```bash
-pip install -r requirements.txt
-```
-2) اجرا:
-```bash
-python run.py
-```
+A professional **financial and accounting automation tool** built with Python.  
+Designed to handle **reporting, Excel integration, and smart accounting workflows**.  
+Perfect for showcasing applied knowledge in **Finance, Accounting, and Software Development**.  
 
-## ساخت exe (اختیاری)
-```bash
-pip install pyinstaller
-pyinstaller --noconsole --onefile --add-data "finsuite/resources;finsuite/resources" run.py -n FinSuitePro
-```
+---
+
+## 🚀 Features  
+- 📑 Automated **Journal & Ledger** creation in Excel  
+- 📈 Generate **Balance Sheet & P&L reports** automatically  
+- ⚙️ Built with **Python (Excel automation via OpenPyXL & Pandas)**  
+- 🌐 Multi-language support (currently Persian 🇮🇷, English 🌍)  
+- 🖥️ User-friendly interface with modern design  
+
+---
+
+## 🛠️ Tech Stack  
+- **Python 3.13+**  
+- **OpenPyXL** – Excel file creation and formatting  
+- **Pandas** – Data analysis & financial calculations  
+- **Tkinter / PyQt** – GUI interface  
+- **GitHub Actions (CI/CD)** – (optional future integration)  
+
+---
+
+## 📥 Installation & Usage  
+
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/mahdirahdar1999/financial.git
+   cd financial
