@@ -1,0 +1,10 @@
+
+* { font-family: 'Segoe UI', Tahoma, sans-serif; font-size: 12pt; }
+QMainWindow { background: #0f172a; }
+QLabel, QCheckBox, QGroupBox { color: #e2e8f0; }
+QGroupBox { border: 1px solid #334155; border-radius: 12px; margin-top: 12px; padding: 12px; }
+QGroupBox::title { left: 10px; padding: 0 6px; color: #93c5fd; }
+QPushButton { background: #4f46e5; color: white; border: none; padding: 10px 16px; border-radius: 10px; }
+QPushButton:hover { background: #4338ca; }
+QLineEdit, QComboBox, QDateEdit { background: #0b1220; color: #e2e8f0; border: 1px solid #334155; border-radius: 10px; padding: 6px 8px; }
+QStatusBar { color: #94a3b8; }

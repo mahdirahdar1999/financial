@@ -1,0 +1,20 @@
+{
+  "VAT": {
+    "standard_rate_percent": 9.0
+  },
+  "SSO": {
+    "employee_percent": 7.0,
+    "employer_percent": 23.0,
+    "unemployment_percent": 3.0
+  },
+  "CIT": {
+    "standard_percent": 25.0
+  },
+  "WHT": {
+    "services_percent_sample": 5.0,
+    "rent_percent_sample": 3.0
+  },
+  "meta": {
+    "last_updated": "2025-08-17"
+  }
+}
